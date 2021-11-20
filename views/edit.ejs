@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="site">
+        <br>
+        <br>
+        <br>
+        <div class="ui container">
+            <form id="form" action="/edit/<%= team._id %>" class="ui form" method="POST">
+                <div class="three fields">
+                    <div class="field">
+                        <label for="label" class="ui header green">Enter Category ID</label>
+                        <input type="text" name="cid" placeholder="Enter Category ID" value="" id="cid">
+                    </div>
+                    <div class="field">
+                        <label for="label" class="ui header green">Enter Product ID</label>
+                        <input type="text" name="pid" placeholder="Enter Product ID" value="" id="pid">
+                    </div>
+                    <div class="field">
+                        <label for="label" class="ui header green">Enter Category Name</label>
+                        <input type="text" name="cname" placeholder="Enter Category Name" value="" id="cname">
+                    </div>
+                    <div class="field">
+                        <label for="label" class="ui header green">Enter Product Name</label>
+                        <input type="text" name="pname" placeholder="Enter Product Name" value="" id="pname">
+                    </div>
+                </div>
+                <!-- <div class=" one fields"> -->
+                    <div class="field fluid">
+                        <button type="submit" class="ui button fluid green">Save</button>
+                    </div>
+                <!-- </div> -->
+            </form>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>
