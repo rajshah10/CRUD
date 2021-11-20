@@ -1,5 +1,5 @@
 {
-  "name": "ucl-crud",
+  "name": "crud",
   "version": "1.0.0",
   "description": "A simple crud system with node js",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "mongodb",
     "crud"
   ],
-  "author": "md-shayon",
+  "author": "rajshah",
   "license": "ISC",
   "bugs": {
   },
